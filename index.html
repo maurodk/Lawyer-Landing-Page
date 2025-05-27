@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr(a). [Seu Nome] - Advocacia Especializada</title>
+    <meta
+      name="description"
+      content="Advogado(a) especialista em [Sua Área Principal], oferecendo soluções jurídicas estratégicas e personalizadas."
+    />
+    <!-- Favicon (adicione o seu) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Google Fonts (Exemplo: Montserrat e Lora) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Arquivo CSS Principal -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/SEU_KIT_ID.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Ícones (Exemplo: Font Awesome - opcional) -->
+    <!-- <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Dr(a). [Seu Nome]</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Início</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre Mim</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Áreas de Atuação</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contato</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">×</div>
+        </div>
+
+        <div class="nav__actions">
+          <a href="tel:+5500900000000" class="nav__phone-link"
+            >((77) 99999-9999)</a
+          >
+          <div class="nav__theme">
+            <i class="fas fa-moon" id="theme-button"></i>
+            <!-- Ícone inicial de lua -->
+          </div>
+          <a href="#contact" class="button button--primary nav__button"
+            >Agendar Consulta</a
+          >
+          <div class="nav__toggle" id="nav-toggle">
+            ☰
+            <!-- Hamburger Icon -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ==================== HERO (HOME) ==================== -->
+      <section class="hero section" id="home">
+        <div class="hero__container container grid">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Defendendo Seus Direitos com
+              <span class="highlight">Expertise e Dedicação</span>
+            </h1>
+            <p class="hero__description">
+              Soluções jurídicas estratégicas e personalizadas para proteger
+              seus interesses. Conte com um especialista para navegar pelas
+              complexidades legais.
+            </p>
+            <!-- Na seção HERO, abaixo da descrição principal -->
+            <p
+              class="hero__description hero__typewriter-target"
+              data-phrases='["Estratégias Personalizadas", "Resultados Comprovados", "Defesa dos Seus Direitos"]'
+            ></p>
+            <a href="#contact" class="button button--primary button--large"
+              >Agende sua Consulta Inicial</a
+            >
+            <div class="hero__social-proof">
+              <span><i class="fas fa-award"></i> +[X] Anos de Experiência</span>
+              <span><i class="fas fa-balance-scale"></i> OAB/UF [XXXXX]</span>
+            </div>
+          </div>
+          <div class="hero__image-container">
+            <!-- Adicione sua foto profissional aqui -->
+            <img
+              data-src="/advogado.png"
+              src="/advogado.png"
+              alt="Dr(a). [Seu Nome]"
+              class="hero__img"
+              alt="Dr(a). [Seu Nome]"
+              class="hero__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT ==================== -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__image-container">
+            <!-- Pode ser uma imagem diferente ou a mesma com outro tratamento -->
+            <img
+              src="/Funcao-advogado-jpg.webp"
+              alt="Ambiente de trabalho do Dr(a). [Seu Nome]"
+              class="about__img"
+            />
+          </div>
+          <div class="about__content">
+            <span class="section__subtitle">Conheça o Advogado</span>
+            <h2 class="section__title">Minha Filosofia de Trabalho</h2>
+            <p class="about__description">
+              Com mais de [X] anos de dedicação ao Direito [Sua Especialidade
+              Principal], minha missão é oferecer um atendimento jurídico de
+              excelência, pautado na ética, transparência e na busca incansável
+              pelos melhores resultados para meus clientes.
+            </p>
+            <p class="about__description">
+              Acredito que cada caso é único e merece uma análise aprofundada e
+              estratégica. Meu compromisso é entender suas necessidades e lutar
+              pelos seus direitos com vigor e profissionalismo.
+            </p>
+            <ul class="about__list">
+              <li>
+                <i class="fas fa-check-circle"></i> Atendimento Personalizado e
+                Humanizado
+              </li>
+              <li>
+                <i class="fas fa-gavel"></i> Foco em Soluções Estratégicas
+              </li>
+              <li>
+                <i class="fas fa-shield-alt"></i> Confidencialidade e Ética
+                Profissional
+              </li>
+            </ul>
+            <a href="#contact" class="button button--secondary">Fale Comigo</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SERVICES (ÁREAS DE ATUAÇÃO) ==================== -->
+      <section class="services section" id="services">
+        <div class="container">
+          <span class="section__subtitle">Como Posso Ajudar</span>
+          <h2 class="section__title">Áreas de Atuação</h2>
+          <div class="services__container grid">
+            <!-- Card de Serviço 1 -->
+            <article class="service__card">
+              <div class="service__icon">[Ícone da Área 1]</div>
+              <!-- Ex: <i class="fas fa-landmark"></i> -->
+              <h3 class="service__title">Direito Imobiliário</h3>
+              <p class="service__description">
+                Assessoria completa em transações imobiliárias, regularização de
+                imóveis, locações, condomínios e litígios.
+              </p>
+              <a href="#contact" class="service__link"
+                >Saiba Mais <i class="fas fa-arrow-right"></i
+              ></a>
+            </article>
+            <!-- Card de Serviço 2 -->
+            <article class="service__card">
+              <div class="service__icon">[Ícone da Área 2]</div>
+              <!-- Ex: <i class="fas fa-users"></i> -->
+              <h3 class="service__title">Direito de Família</h3>
+              <p class="service__description">
+                Atuação em divórcios, partilha de bens, guarda de filhos, pensão
+                alimentícia e planejamento sucessório.
+              </p>
+              <a href="#contact" class="service__link"
+                >Saiba Mais <i class="fas fa-arrow-right"></i
+              ></a>
+            </article>
+            <!-- Card de Serviço 3 -->
+            <article class="service__card">
+              <div class="service__icon">[Ícone da Área 3]</div>
+              <!-- Ex: <i class="fas fa-file-signature"></i> -->
+              <h3 class="service__title">Consultoria Contratual</h3>
+              <p class="service__description">
+                Elaboração, análise e revisão de contratos para garantir
+                segurança jurídica em seus negócios e relações.
+              </p>
+              <a href="#contact" class="service__link"
+                >Saiba Mais <i class="fas fa-arrow-right"></i
+              ></a>
+            </article>
+            <!-- Adicione mais cards conforme necessário -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== TESTIMONIALS (OPCIONAL E COM CAUTELA) ==================== -->
+      <!--
+        <section class="testimonials section">
+            <div class="container">
+                <span class="section__subtitle">Prova Social</span>
+                <h2 class="section__title">O Que Dizem Meus Clientes</h2>
+                <div class="testimonials__container">
+                    < ! - - Slider de Depoimentos (requer JS ou lib de slider) - - >
+                    <article class="testimonial__card">
+                        <p class="testimonial__text">"Excelente profissional, resolveu meu caso com muita agilidade e competência. Recomendo!"</p>
+                        <h4 class="testimonial__author">- Cliente Satisfeito (Empresário)</h4>
+                    </article>
+                    < ! - - Adicione mais depoimentos - - >
+                </div>
+            </div>
+        </section>
+        -->
+
+      <!-- ==================== CONTACT ==================== -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <span class="section__subtitle">Entre em Contato</span>
+            <h2 class="section__title">Vamos Conversar Sobre o Seu Caso</h2>
+            <p class="contact__description">
+              Não deixe suas dúvidas ou problemas legais se acumularem. Preencha
+              o formulário ou utilize um dos canais abaixo para uma análise
+              inicial.
+            </p>
+            <div class="contact__info-group">
+              <div class="contact__info-item">
+                <i class="fas fa-phone-alt"></i>
+                <!-- Ícone Telefone -->
+                <div>
+                  <h4>Telefone / WhatsApp</h4>
+                  <a href="tel:+5500900000000" class="contact__link"
+                    >(00) 90000-0000</a
+                  >
+                </div>
+              </div>
+              <div class="contact__info-item">
+                <i class="fas fa-envelope"></i>
+                <!-- Ícone Email -->
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:seuemail@dominio.com" class="contact__link"
+                    >seuemail@dominio.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact__info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <!-- Ícone Endereço -->
+                <div>
+                  <h4>Endereço (se aplicável)</h4>
+                  <p>Sua Rua, Nº 123, Bairro, Cidade - UF</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form
+            action="seu_script_de_envio.php"
+            method="POST"
+            class="contact__form"
+          >
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label"
+                >Nome Completo*</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="contact__form-input"
+                required
+              />
+            </div>
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label"
+                >Melhor Email*</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="contact__form-input"
+                required
+              />
+            </div>
+            <div class="contact__form-group">
+              <label for="phone" class="contact__form-label"
+                >Telefone (com DDD)</label
+              >
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="contact__form-input"
+              />
+            </div>
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label"
+                >Descreva brevemente sua situação*</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                class="contact__form-input"
+                required
+              ></textarea>
+            </div>
+            <div class="contact__form-group">
+              <input type="checkbox" id="privacy" name="privacy" required />
+              <label for="privacy" class="contact__form-privacy"
+                >Li e concordo com a
+                <a href="politica-de-privacidade.html" target="_blank"
+                  >Política de Privacidade</a
+                >.</label
+              >
+            </div>
+            <button type="submit" class="button button--primary button--large">
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <p class="footer__copy">
+            Dr(a). [Seu Nome] - Advogado(a) - OAB/UF [XXXXX] <br />
+            © <span id="currentYear"></span> Todos os direitos reservados.
+          </p>
+          <ul class="footer__links">
+            <li>
+              <a href="politica-de-privacidade.html" class="footer__link"
+                >Política de Privacidade</a
+              >
+            </li>
+            <li>
+              <a href="termos-de-uso.html" class="footer__link"
+                >Termos de Uso</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <a
+            href="https://linkedin.com/in/seu-perfil"
+            target="_blank"
+            class="footer__social-link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- Adicione outros links sociais se relevante -->
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="scroll-to-top" id="scroll-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- ScrollReveal JS (para animações de scroll) -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
